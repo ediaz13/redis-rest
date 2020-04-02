@@ -1,0 +1,3 @@
+ar\com\santander\mobile\backend\individuos\service\CustomUserDetailsService.class
+ar\com\santander\mobile\backend\individuos\BaseRestApiApplication.class
+ar\com\santander\mobile\backend\individuos\dto\AuthenticationRequest.class

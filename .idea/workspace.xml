@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7fb840cf-6080-4d41-88b9-0ca3f7ab08c3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="demo-rest-service" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1Zr1z2qkHssyxJ2zFIUMvntyVyH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="LombokPluginEnabledInProject" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="DemoRestServiceApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ar.com.santander.mobile.backend.individual.DemoRestServiceApplication" />
+      <module name="main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ar.com.santander.mobile.backend.individual.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7fb840cf-6080-4d41-88b9-0ca3f7ab08c3" name="Default Changelist" comment="" />
+      <created>1585582659897</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585582659897</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="311" y="45" key="#DemoRestServiceApplication" timestamp="1585588098049">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="311" y="45" key="#DemoRestServiceApplication/0.0.1366.728@0.0.1366.728" timestamp="1585588098049" />
+    <state x="274" y="29" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585586003399">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="274" y="29" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1585586003399" />
+    <state x="481" y="302" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1585587900668">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="481" y="302" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1585587900668" />
+    <state width="1323" height="201" key="GridCell.Tab.0.bottom" timestamp="1585687537142">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="201" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1585687537142" />
+    <state width="1323" height="201" key="GridCell.Tab.0.center" timestamp="1585687537142">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="201" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1585687537142" />
+    <state width="1323" height="201" key="GridCell.Tab.0.left" timestamp="1585687537142">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="201" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1585687537142" />
+    <state width="1323" height="201" key="GridCell.Tab.0.right" timestamp="1585687537142">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="201" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1585687537142" />
+    <state x="246" y="11" key="SettingsEditor" timestamp="1585585481666">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="246" y="11" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585585481666" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1585586087223">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1585586087223" />
+    <state x="384" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1585585515798">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="384" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585585515798" />
+  </component>
+</project>

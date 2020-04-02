@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: base-rest-api
+    description: Demo REST API para Santander Mobile Banking Individuos
+    version: 0.0.1-SNAPSHOT
+    
+  redis:
+    host: localhost
+    jedis:
+      pool:
+        max-active: 16
+        max-idle: 8
+        min-idle: 4
+    password: ''
+    port: 6379
+  session:
+    redis:
+      #flush-mode: 'on-save '
+      namespace: 'spring:session '
+      store-type: redis
+
+info:
+  app:
+    name: base-rest-api
+    description: Demo REST API para Santander Mobile Banking Individuos
+    version: 0.0.1-SNAPSHOT
+
+jwt:
+  secret: s3cr3t
+  expiration: 10
+   
+server:
+  servlet:
+  session:
+  timeout: 10
