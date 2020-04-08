@@ -2,6 +2,7 @@ package ar.com.santander.mobile.backend.individual.config;
 
 import org.apache.commons.pool2.impl.GenericObjectPoolConfig;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.redis.connection.RedisPassword;
@@ -9,10 +10,13 @@ import org.springframework.data.redis.connection.RedisStandaloneConfiguration;
 import org.springframework.data.redis.connection.jedis.JedisClientConfiguration;
 import org.springframework.data.redis.connection.jedis.JedisConnectionFactory;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.data.redis.serializer.GenericJackson2JsonRedisSerializer;
+import org.springframework.data.redis.serializer.RedisSerializer;
 import org.springframework.data.redis.serializer.StringRedisSerializer;
 import org.springframework.util.StringUtils;
 
 @Configuration
+@EnableAutoConfiguration
 public class SpringRedisConf {
 	@Value("${spring.redis.host}")
 	private String host;
@@ -58,8 +62,16 @@ public class SpringRedisConf {
 	@Bean
 	public RedisTemplate redisTemplate() {
 		RedisTemplate<String, Object> redisTemplate = new RedisTemplate<String, Object>();
+		
+		StringRedisSerializer stringSerializer = new StringRedisSerializer();
+		GenericJackson2JsonRedisSerializer genericJackson2JsonRedisSerializer = new GenericJackson2JsonRedisSerializer();
+		
 		redisTemplate.setConnectionFactory(getJedisConnectionFactory());
-		redisTemplate.setKeySerializer(new StringRedisSerializer());
+		redisTemplate.setKeySerializer(stringSerializer);
+		redisTemplate.setValueSerializer(genericJackson2JsonRedisSerializer);
+		redisTemplate.setHashKeySerializer(stringSerializer);
+		redisTemplate.setHashValueSerializer(genericJackson2JsonRedisSerializer);
+		System.out.println("Por aca pase");
 		return redisTemplate;
 	}
 	
